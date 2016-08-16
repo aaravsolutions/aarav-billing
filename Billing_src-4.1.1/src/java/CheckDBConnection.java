@@ -22,7 +22,7 @@ public class CheckDBConnection {
 
     private static final String DB_NAME = "jbilling_test";
     private static final String USERNAME = "jbilling";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "jbilling";
 
     public static void main(String[] args) {
         System.out.println("Checking the connection to the DB...");
