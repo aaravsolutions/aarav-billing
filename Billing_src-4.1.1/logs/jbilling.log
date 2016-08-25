@@ -1,0 +1,699 @@
+2016-08-23 12:27:01,899 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 12:27:01,937 38    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 12:27:04,049 2150  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 12:27:04,059 2160  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 12:27:05,096 3197  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 12:27:05,157 3258  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 12:27:13,948 12049 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 12:27:13,949 12050 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 12:27:14,610 12711 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 12:27:16,940 15041 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 12:27:17,040 15141 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 12:27:17,312 15413 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1eju0gq7k4c78|2b1245d8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1eju0gq7k4c78|2b1245d8, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 12:27:22,632 20733 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 12:27:22,633 20734 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: 
+2016-08-23 12:27:30,495 28596 ERROR [com.sapienter.jbilling.common.Util] (localhost-startStop-1:) Cannot read property 'security.password_encrypt_scheme' from C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 12:27:30,554 28655 ERROR [org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener] (localhost-startStop-1:) Error initializing the application: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+2016-08-23 13:04:48,558 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 13:04:48,592 34    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 13:04:50,098 1540  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 13:04:50,111 1553  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 13:04:51,042 2484  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 13:04:51,101 2543  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 13:04:58,406 9848  INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 13:04:58,409 9851  INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 13:04:59,064 10506 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 13:05:01,579 13021 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 13:05:01,679 13121 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 13:05:01,917 13359 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1el6jvkki3jbz|3507db8f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1el6jvkki3jbz|3507db8f, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 13:05:07,961 19403 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 13:05:07,963 19405 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: F:\aarav_rating\aarav-billing\Billing_src-4.1.1\resources\
+2016-08-23 13:05:15,381 26823 ERROR [com.sapienter.jbilling.common.Util] (localhost-startStop-1:) Cannot read property 'security.password_encrypt_scheme' from C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 13:05:15,448 26890 ERROR [org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener] (localhost-startStop-1:) Error initializing the application: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+2016-08-23 15:00:39,622 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:00:39,666 44    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:00:41,926 2304  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:00:41,938 2316  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:00:42,964 3342  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 15:00:43,034 3412  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 15:00:51,548 11926 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 15:00:51,550 11928 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 15:00:52,115 12493 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 15:00:54,431 14809 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 15:00:54,587 14965 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 15:00:54,911 15289 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1epbkrm125h7ew|433c5512, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1epbkrm125h7ew|433c5512, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 15:00:59,724 20102 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 15:00:59,725 20103 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: F:\aarav_rating\aarav-billing\Billing_src-4.1.1\resources\
+2016-08-23 15:01:06,959 27337 ERROR [com.sapienter.jbilling.common.Util] (localhost-startStop-1:) Cannot read property 'security.password_encrypt_scheme' from C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 15:01:07,017 27395 ERROR [org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener] (localhost-startStop-1:) Error initializing the application: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gspTagLibraryLookup': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grails.plugin.springsecurity.SecurityTagLib': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webInvocationPrivilegeEvaluator': Cannot resolve reference to bean 'filterInvocationInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterInvocationInterceptor': Cannot resolve reference to bean 'authenticationManager' while setting bean property 'authenticationManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager': Cannot resolve reference to bean 'daoAuthenticationProvider' while setting bean property 'providers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'daoAuthenticationProvider': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+Caused by: org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'passwordEncoder' threw exception; nested exception is java.lang.NumberFormatException: null
+	... 4 more
+2016-08-23 15:22:31,670 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:22:31,695 25    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:22:33,063 1393  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:22:33,072 1402  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:22:33,991 2321  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 15:22:34,048 2378  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 15:22:42,639 10969 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 15:22:42,641 10971 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 15:22:43,290 11620 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 15:22:47,342 15672 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 15:22:47,479 15809 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 15:22:47,886 16216 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1eq3psmcc6mva|10aa01a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1eq3psmcc6mva|10aa01a, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 15:22:55,928 24258 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 15:22:55,929 24259 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: F:\aarav_rating\aarav-billing\Billing_src-4.1.1\resources\
+2016-08-23 15:23:18,430 46760 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-08-23 15:23:18,522 46852 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-08-23 15:23:18,525 46855 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-08-23 15:23:18,600 46930 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-08-23 15:23:18,682 47012 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-08-23 15:23:18,791 47121 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-08-23 15:23:18,792 47122 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-08-23 15:23:19,044 47374 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-08-23 15:23:19,115 47445 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-08-23 15:23:19,116 47446 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-08-23 15:23:19,134 47464 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-08-23 15:23:19,139 47469 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:AAR_BLR_0017-55017-1471945998864-0:0) started
+2016-08-23 15:23:21,236 49566 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-08-23 15:23:22,014 50344 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-08-23 15:23:22,015 50345 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-08-23 15:23:22,018 50348 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-08-23 15:23:24,106 52436 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-08-23 15:23:25,008 53338 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-08-23 15:23:25,668 53998 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-08-23 15:23:26,874 55204 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-08-23 15:23:26,950 55280 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-08-23 15:23:26,981 55311 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-08-23 15:23:26,997 55327 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-08-23 15:23:27,014 55344 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-08-23 15:23:27,524 55854 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-08-23 15:23:27,649 55979 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-08-23 15:23:27,674 56004 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-08-23 15:23:27,675 56005 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-08-23 15:23:27,791 56121 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-08-23 15:23:27,793 56123 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-08-23 15:23:27,794 56124 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-08-23 15:23:28,006 56336 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-08-23 15:23:33,569 61899 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-08-23 15:23:34,371 62701 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-08-23 15:23:34,380 62710 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-08-23 15:23:34,421 62751 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-08-23 15:23:34,422 62752 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-08-23 15:23:34,424 62754 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-08-23 15:23:34,426 62756 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-23 15:23:34,428 62758 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-08-23 15:23:34,429 62759 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-08-23 15:23:34,430 62760 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-23 15:23:35,612 63942 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-08-23 15:23:39,525 67855 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-08-23 15:23:39,629 67959 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-08-23 15:23:59,503 87833 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + currency
+2016-08-23 15:24:01,153 89483 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + country
+2016-08-23 15:27:18,149 286479 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Request is to process authentication
+2016-08-23 15:27:18,665 286995 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) User Aarav123;4 authentication failed!
+2016-08-23 15:27:18,665 286995 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2016-08-23 15:27:18,665 286995 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Updated SecurityContextHolder to contain null Authentication
+2016-08-23 15:27:18,665 286995 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Delegating to authentication failure handler grails.plugin.springsecurity.web.authentication.AjaxAwareAuthenticationFailureHandler@3203521b
+2016-08-23 15:30:16,668 464998 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ Message Broker (localhost, ID:AAR_BLR_0017-55017-1471945998864-0:0) is shutting down
+2016-08-23 15:30:16,718 465048 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.Breadcrumb
+2016-08-23 15:30:16,721 465051 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.Breadcrumb
+2016-08-23 15:30:16,723 465053 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.Breadcrumb
+2016-08-23 15:30:16,725 465055 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.Filter
+2016-08-23 15:30:16,726 465056 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.Filter
+2016-08-23 15:30:16,728 465058 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.Filter
+2016-08-23 15:30:16,729 465059 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.FilterSet
+2016-08-23 15:30:16,730 465060 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.FilterSet
+2016-08-23 15:30:16,731 465061 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.FilterSet
+2016-08-23 15:30:16,733 465063 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.RecentItem
+2016-08-23 15:30:16,734 465064 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.RecentItem
+2016-08-23 15:30:16,735 465065 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.RecentItem
+2016-08-23 15:30:16,736 465066 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.Shortcut
+2016-08-23 15:30:16,737 465067 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.Shortcut
+2016-08-23 15:30:16,739 465069 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.Shortcut
+2016-08-23 15:30:16,740 465070 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.Tab
+2016-08-23 15:30:16,741 465071 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.Tab
+2016-08-23 15:30:16,743 465073 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.Tab
+2016-08-23 15:30:16,745 465075 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.TabConfiguration
+2016-08-23 15:30:16,746 465076 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.TabConfiguration
+2016-08-23 15:30:16,747 465077 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.TabConfiguration
+2016-08-23 15:30:16,748 465078 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property staticGormStaticApi in jbilling.TabConfigurationTab
+2016-08-23 15:30:16,749 465079 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormInstanceApi in jbilling.TabConfigurationTab
+2016-08-23 15:30:16,750 465080 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-14:) Clearing static property instanceGormValidationApi in jbilling.TabConfigurationTab
+2016-08-23 15:30:17,248 465578 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector tcp://localhost:61616 Stopped
+2016-08-23 15:30:17,254 465584 INFO  [org.apache.activemq.kaha.impl.KahaStore] (ActiveMQ Task:) Kaha Store using data directory activemq-data\localhost\tmp_storage
+2016-08-23 15:30:17,260 465590 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector vm://localhost Stopped
+2016-08-23 15:30:17,588 465918 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ JMS Message Broker (localhost, ID:AAR_BLR_0017-55017-1471945998864-0:0) stopped
+2016-08-23 15:32:24,329 1     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:32:24,376 48    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:32:26,109 1781  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 15:32:26,119 1791  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 15:32:27,469 3141  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 15:32:27,562 3234  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 15:32:39,759 15431 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 15:32:39,762 15434 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 15:32:40,711 16383 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 15:32:43,785 19457 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 15:32:43,893 19565 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 15:32:44,199 19871 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1eqghzy1r6vypq|20e3e732, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1eqghzy1r6vypq|20e3e732, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 15:32:50,794 26466 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 15:32:50,795 26467 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: F:\aarav_rating\aarav-billing\Billing_src-4.1.1\resources\
+2016-08-23 15:33:08,580 44252 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-08-23 15:33:08,641 44313 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Successfully deleted temporary storage
+2016-08-23 15:33:08,655 44327 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-08-23 15:33:08,656 44328 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-08-23 15:33:08,682 44354 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-08-23 15:33:08,730 44402 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-08-23 15:33:08,794 44466 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-08-23 15:33:08,795 44467 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-08-23 15:33:08,985 44657 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-08-23 15:33:09,188 44860 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-08-23 15:33:09,190 44862 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-08-23 15:33:09,203 44875 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-08-23 15:33:09,208 44880 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:AAR_BLR_0017-55179-1471946588817-0:0) started
+2016-08-23 15:33:11,815 47487 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-08-23 15:33:12,302 47974 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-08-23 15:33:12,304 47976 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-08-23 15:33:12,306 47978 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-08-23 15:33:14,139 49811 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-08-23 15:33:14,827 50499 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-08-23 15:33:15,337 51009 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-08-23 15:33:16,194 51866 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-08-23 15:33:16,260 51932 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-08-23 15:33:16,297 51969 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-08-23 15:33:16,309 51981 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-08-23 15:33:16,327 51999 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-08-23 15:33:16,661 52333 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-08-23 15:33:16,771 52443 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-08-23 15:33:16,792 52464 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-08-23 15:33:16,793 52465 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-08-23 15:33:16,894 52566 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-08-23 15:33:16,895 52567 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-08-23 15:33:16,896 52568 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-08-23 15:33:17,098 52770 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-08-23 15:33:21,326 56998 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-08-23 15:33:21,865 57537 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-08-23 15:33:21,871 57543 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-08-23 15:33:21,898 57570 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-08-23 15:33:21,900 57572 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-08-23 15:33:21,902 57574 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-08-23 15:33:21,905 57577 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-23 15:33:21,906 57578 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-08-23 15:33:21,907 57579 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-08-23 15:33:21,908 57580 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-23 15:33:22,723 58395 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-08-23 15:33:24,950 60622 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-08-23 15:33:25,027 60699 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-08-23 15:33:43,123 78795 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + currency
+2016-08-23 15:33:45,573 81245 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + country
+2016-08-23 15:35:58,220 213892 DEBUG [grails.app.controllers.jbilling.SignupController] (http-nio-8080-exec-4:) Company @@@@@@@@@@@@@@@@:  CompanyDTO: 10
+2016-08-23 15:35:58,583 214255 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + role
+2016-08-23 15:35:59,151 214823 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + order_status
+2016-08-23 15:35:59,180 214852 DEBUG [com.sapienter.jbilling.client.EntityDefaults] (http-nio-8080-exec-4:) company.id ********: 10
+2016-08-23 15:35:59,445 215117 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + order_period
+2016-08-23 15:35:59,542 215214 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + order_change_status
+2016-08-23 15:35:59,599 215271 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + account_type
+2016-08-23 15:36:01,252 216924 ERROR [org.hibernate.util.JDBCExceptionReporter] (http-nio-8080-exec-4:) Batch entry 0 /* insert com.sapienter.jbilling.server.metafields.db.MetaField */ insert into meta_field_name (data_type, default_value_id, is_disabled, display_order, entity_id, entity_type, field_usage, filename, is_mandatory, name, is_primary, validation_rule_id, optlock, id) values ('STRING', NULL, '0', 1, 10, 'PAYMENT_METHOD_TEMPLATE', 'TITLE', NULL, '1', 'cc.cardholder.name', '1', NULL, 0, 140) was aborted.  Call getNextException to see the cause.
+2016-08-23 15:36:01,253 216925 ERROR [org.hibernate.util.JDBCExceptionReporter] (http-nio-8080-exec-4:) ERROR: duplicate key value violates unique constraint "meta_field_name_pkey"
+  Detail: Key (id)=(140) already exists.
+2016-08-23 15:36:01,297 216969 ERROR [org.codehaus.groovy.grails.orm.hibernate.events.PatchedDefaultFlushEventListener] (http-nio-8080-exec-4:) Could not synchronize database state with session
+org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+	at org.grails.datastore.gorm.internal.InstanceMethodInvokingClosure.call(InstanceMethodInvokingClosure.groovy:45)
+	at com.sapienter.jbilling.client.EntityDefaults.init(EntityDefaults.groovy:278)
+	at jbilling.SignupController.save(SignupController.groovy:147)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 /* insert com.sapienter.jbilling.server.metafields.db.MetaField */ insert into meta_field_name (data_type, default_value_id, is_disabled, display_order, entity_id, entity_type, field_usage, filename, is_mandatory, name, is_primary, validation_rule_id, optlock, id) values ('STRING', NULL, '0', 1, 10, 'PAYMENT_METHOD_TEMPLATE', 'TITLE', NULL, '1', 'cc.cardholder.name', '1', NULL, 0, 140) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc2.AbstractJdbc2Statement$BatchResultHandler.handleError(AbstractJdbc2Statement.java:2743)
+	at org.postgresql.core.v3.QueryExecutorImpl$1.handleError(QueryExecutorImpl.java:461)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1928)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:405)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeBatch(AbstractJdbc2Statement.java:2892)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
+	... 8 more
+2016-08-23 15:36:01,484 217156 ERROR [org.hibernate.util.JDBCExceptionReporter] (http-nio-8080-exec-4:) Batch entry 0 /* insert com.sapienter.jbilling.server.metafields.db.MetaField */ insert into meta_field_name (data_type, default_value_id, is_disabled, display_order, entity_id, entity_type, field_usage, filename, is_mandatory, name, is_primary, validation_rule_id, optlock, id) values ('STRING', NULL, '0', 2, 10, 'PAYMENT_METHOD_TEMPLATE', 'PAYMENT_CARD_NUMBER', NULL, '1', 'cc.number', '1', 150, 0, 141) was aborted.  Call getNextException to see the cause.
+2016-08-23 15:36:01,491 217163 ERROR [org.hibernate.util.JDBCExceptionReporter] (http-nio-8080-exec-4:) ERROR: duplicate key value violates unique constraint "meta_field_name_pkey"
+  Detail: Key (id)=(141) already exists.
+2016-08-23 15:36:01,508 217180 ERROR [org.codehaus.groovy.grails.orm.hibernate.events.PatchedDefaultFlushEventListener] (http-nio-8080-exec-4:) Could not synchronize database state with session
+org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+	at org.grails.datastore.gorm.internal.InstanceMethodInvokingClosure.call(InstanceMethodInvokingClosure.groovy:45)
+	at com.sapienter.jbilling.client.EntityDefaults.init(EntityDefaults.groovy:321)
+	at jbilling.SignupController.save(SignupController.groovy:147)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 /* insert com.sapienter.jbilling.server.metafields.db.MetaField */ insert into meta_field_name (data_type, default_value_id, is_disabled, display_order, entity_id, entity_type, field_usage, filename, is_mandatory, name, is_primary, validation_rule_id, optlock, id) values ('STRING', NULL, '0', 2, 10, 'PAYMENT_METHOD_TEMPLATE', 'PAYMENT_CARD_NUMBER', NULL, '1', 'cc.number', '1', 150, 0, 141) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc2.AbstractJdbc2Statement$BatchResultHandler.handleError(AbstractJdbc2Statement.java:2743)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1928)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:405)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeBatch(AbstractJdbc2Statement.java:2892)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
+	... 8 more
+2016-08-23 15:36:01,795 217467 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (http-nio-8080-exec-4:) Retvalue >>>> language = null type = null use = null content = 
+2016-08-23 15:36:01,855 217527 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-4:) Entering notify()
+2016-08-23 15:36:02,568 218240 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-4:) Entering notify()
+2016-08-23 15:36:02,568 218240 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-4:) Entering notify with message
+2016-08-23 15:36:02,883 218555 DEBUG [com.sapienter.jbilling.server.notification.NotificationMDB] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Received a notification message: 
+2016-08-23 15:36:02,986 218658 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entering notify()
+2016-08-23 15:36:02,992 218664 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entering notify()
+2016-08-23 15:36:03,470 219142 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entered PluggableTaskManager
+2016-08-23 15:36:03,573 219245 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) total classes = 3
+2016-08-23 15:36:03,574 219246 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Applying task com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask
+2016-08-23 15:36:03,578 219250 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask
+2016-08-23 15:36:03,705 219377 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sending notification to user : Aarav1
+2016-08-23 15:36:04,015 219687 DEBUG [com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sending email to  raghuprabha2@gmail.com bcc null server=localhost port=25 username=
+2016-08-23 15:36:05,095 220767 ERROR [com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Error sending email
+org.springframework.mail.MailSendException: Mail server connection failed; nested exception is javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect). Failed messages: javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect); message exception details (1) are:
+Failed message 1:
+javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:161)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:165)
+	at javax.mail.Service.connect(Service.java:251)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:397)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:346)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:341)
+	at com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask.deliver(BasicEmailNotificationTask.java:317)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.deliverNotification(NotificationSessionBean.java:303)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.sendMessageWithNotification(NotificationSessionBean.java:271)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:164)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy127.asyncNotify(Unknown Source)
+	at com.sapienter.jbilling.server.notification.NotificationMDB.onMessage(NotificationMDB.java:33)
+	at org.springframework.jms.listener.adapter.MessageListenerAdapter.onMessage(MessageListenerAdapter.java:341)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:537)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:497)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:468)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:325)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:243)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1102)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1094)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:991)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:286)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnectedSocket(MailConnection.java:307)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnection(MailConnection.java:250)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:140)
+	... 34 more
+2016-08-23 15:36:05,160 220832 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) seding sapienter email notification.email.error to raghuprabha2@gmail.com of entity 10
+2016-08-23 15:36:05,213 220885 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Message: javax.mail.internet.MimeMessage@1a1282f0
+2016-08-23 15:36:05,213 220885 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) MessageText: Dear billing administrator,    This message indicates that Sapienter attempted to send an email, but the delivery failed. The following is the message received from the email server: ----------Mail server connection failed; nested exception is javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect). Failed messages: javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect)---------- These are the parameters the system used to send this email:Address(es):  raghuprabha2@gmail.comServer: localhostPort: 25 Username: Password:     This is an automated message, please do not reply.
+2016-08-23 15:36:05,213 220885 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Address: raghuprabha2@gmail.com
+2016-08-23 15:36:06,220 221892 ERROR [com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Exception sending error message to entity
+javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:161)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:165)
+	at javax.mail.Service.connect(Service.java:251)
+	at com.sapienter.jbilling.server.notification.NotificationBL.sendSapienterEmail(NotificationBL.java:1406)
+	at com.sapienter.jbilling.server.notification.NotificationBL.sendSapienterEmail(NotificationBL.java:1322)
+	at com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask.deliver(BasicEmailNotificationTask.java:341)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.deliverNotification(NotificationSessionBean.java:303)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.sendMessageWithNotification(NotificationSessionBean.java:271)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:164)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy127.asyncNotify(Unknown Source)
+	at com.sapienter.jbilling.server.notification.NotificationMDB.onMessage(NotificationMDB.java:33)
+	at org.springframework.jms.listener.adapter.MessageListenerAdapter.onMessage(MessageListenerAdapter.java:341)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:537)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:497)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:468)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:325)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:243)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1102)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1094)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:991)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:286)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnectedSocket(MailConnection.java:307)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnection(MailConnection.java:250)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:140)
+	... 33 more
+2016-08-23 15:36:06,223 221895 ERROR [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Error: 
+com.sapienter.jbilling.server.pluggableTask.TaskException: Exception sending the message.Mail server connection failed; nested exception is javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect). Failed messages: javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect)
+	at com.sapienter.jbilling.server.pluggableTask.BasicEmailNotificationTask.deliver(BasicEmailNotificationTask.java:348)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.deliverNotification(NotificationSessionBean.java:303)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.sendMessageWithNotification(NotificationSessionBean.java:271)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:164)
+	at com.sapienter.jbilling.server.notification.NotificationSessionBean.asyncNotify(NotificationSessionBean.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy127.asyncNotify(Unknown Source)
+	at com.sapienter.jbilling.server.notification.NotificationMDB.onMessage(NotificationMDB.java:33)
+	at org.springframework.jms.listener.adapter.MessageListenerAdapter.onMessage(MessageListenerAdapter.java:341)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:537)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:497)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:468)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:325)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:243)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1102)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1094)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:991)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-23 15:36:06,224 221896 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Applying task com.sapienter.jbilling.server.pluggableTask.PaperInvoiceNotificationTask
+2016-08-23 15:36:06,233 221905 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.PaperInvoiceNotificationTask
+2016-08-23 15:36:06,239 221911 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sending notification to user : Aarav1
+2016-08-23 15:36:06,239 221911 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Applying task com.sapienter.jbilling.server.notification.task.TestNotificationTask
+2016-08-23 15:36:06,242 221914 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Creating a new instance of com.sapienter.jbilling.server.notification.task.TestNotificationTask
+2016-08-23 15:36:06,251 221923 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sending notification to user : Aarav1
+2016-08-23 15:36:06,278 221950 DEBUG [com.sapienter.jbilling.server.notification.task.TestNotificationTask] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sent test notification to 10810
+2016-08-23 15:38:16,230 351902 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) Looking for preference 71, for entity 10 and table entity
+2016-08-23 15:38:16,261 351933 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) preferenceValue : |24|
+2016-08-23 15:39:51,981 447653 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-3:) Call to getUserWS parameters: [10810]
+2016-08-23 15:39:52,209 447881 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-3:) Looking for table + user_status
+2016-08-23 15:39:52,224 447896 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-3:) Looking for table + subscriber_status
+2016-08-23 15:39:52,436 448108 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Looking for preference 43, for entity 10 and table entity
+2016-08-23 15:39:52,436 448108 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:39:52,436 448108 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) preferenceValue : |0|
+2016-08-23 15:39:52,448 448120 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-3:) Total Amount Owed for User 10810 is 0
+2016-08-23 15:39:52,467 448139 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Looking for preference 70, for entity 10 and table entity
+2016-08-23 15:39:52,499 448171 DEBUG [com.sapienter.jbilling.server.user.UserBL] (http-nio-8080-exec-3:) Exception while reading preference
+2016-08-23 15:39:52,523 448195 DEBUG [com.sapienter.jbilling.server.util.api.APIStopWatchAspect] (http-nio-8080-exec-3:) WebServicesSessionSpringBean.getUserWS took: 491 ms.
+2016-08-23 15:39:52,524 448196 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-3:) Done call to getUserWS returning: , autoRecharge=null, automaticPaymentType=null, blacklistMatches=null, childIds=null, companyName=AARAV SOLUTIONS PVT LTD, contact=ContactWS{id=113301, title='null', lastName='Muthusamy', firstName='Prabha', initial='null', organization='AARAV SOLUTIONS PVT LTD', address1='Bangalore', address2='', city='', stateProvince='NEW JERSEY', postalCode='768976', countryCode='US', phone='981231234', fax='', email='raghuprabha2@gmail.com', include='true'}, createDatetime=2016-08-23 15:35:58.223, creditLimit=null, currencyId=1, customerId=null, deleted=0, dueDateUnitId=null, dueDateValue=null, dynamicBalance=null, excludeAgeing=null, failedAttempts=0, id=10810, invoiceChild=null, invoiceDeliveryMethodId=null, isParent=null, language=English, languageId=1, lastLogin=null, lastStatusChange=null, mainRoleId=2, nextInvoiceDate=null, notes=null, owingBalance=0E-10, parentId=null, partnerId=null, role=Super user, status=Active, statusId=1, subscriberStatusId=1, userIdBlacklisted=null, userName=Aarav1, accountTypeId=null, invoiceDesign=null, userCodeLink=null, isAccountLocked=false, accountExpired=false, accountDisabledDate=null]
+2016-08-23 15:39:52,933 448605 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-3:) Looking for table + base_user
+2016-08-23 15:41:31,911 547583 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Request is to process authentication
+2016-08-23 15:41:32,726 548398 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) Looking for preference 39, for entity 10 and table entity
+2016-08-23 15:41:32,726 548398 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:41:32,726 548398 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) preferenceValue : |0|
+2016-08-23 15:41:32,760 548432 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) User Aarav1;10 authentication failed!
+2016-08-23 15:41:32,760 548432 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2016-08-23 15:41:32,760 548432 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Updated SecurityContextHolder to contain null Authentication
+2016-08-23 15:41:32,760 548432 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Delegating to authentication failure handler grails.plugin.springsecurity.web.authentication.AjaxAwareAuthenticationFailureHandler@4f789c72
+2016-08-23 15:42:00,418 576090 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Request is to process authentication
+2016-08-23 15:42:01,254 576926 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-4:) Setting locale for Spring contexts: en_US
+2016-08-23 15:42:01,254 576926 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ee123763: Principal: CompanyUserDetails{id=10810, username='Aarav1;10', mainRoleId=2, companyId=10, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@957e: RemoteIpAddress: 127.0.0.1; SessionId: 7E673F6F7E2B3BE5E1A338F010BB2880; Granted Authorities: ROLE_SUPER_USER
+2016-08-23 15:42:02,838 578510 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 15:42:02,839 578511 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:42:02,839 578511 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) preferenceValue : |0|
+2016-08-23 15:42:04,586 580258 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 15:42:04,587 580259 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:42:04,587 580259 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) preferenceValue : |0|
+2016-08-23 15:42:05,745 581417 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 15:42:05,746 581418 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:42:05,746 581418 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) preferenceValue : |0|
+2016-08-23 15:42:05,824 581496 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 15:42:05,824 581496 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 15:42:05,824 581496 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-2:) preferenceValue : |0|
+2016-08-23 15:42:18,745 594417 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-2:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 15:44:10,525 706197 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-9:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:04:11,643 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 20:04:11,796 153   WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 20:04:15,756 4113  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-08-23 20:04:15,765 4122  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-08-23 20:04:18,818 7175  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-08-23 20:04:19,169 7526  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-08-23 20:04:50,342 38699 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-08-23 20:04:50,344 38701 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-08-23 20:04:51,461 39818 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-08-23 20:05:01,054 49411 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-08-23 20:05:01,227 49584 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-08-23 20:05:01,611 49968 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgecci9i1f06nyp1u6ln5g|76a0076c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgecci9i1f06nyp1u6ln5g|76a0076c, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-23 20:05:13,546 61903 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\ramesh\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-08-23 20:05:13,548 61905 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: F:\aarav_rating\aarav-billing\Billing_src-4.1.1\resources\
+2016-08-23 20:05:37,858 86215 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-08-23 20:05:37,975 86332 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-08-23 20:05:37,978 86335 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-08-23 20:05:38,048 86405 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-08-23 20:05:38,168 86525 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-08-23 20:05:38,172 86529 WARN  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) The ReferenceStore is not valid - recovering ...
+2016-08-23 20:05:38,178 86535 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store successfully deleted data directory activemq-data\localhost\kr-store\data
+2016-08-23 20:05:38,179 86536 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Journal Recovery Started from: DataManager:(data-)
+2016-08-23 20:05:38,221 86578 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-08-23 20:05:38,330 86687 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Recovered 2 operations from redo log in 0.149 seconds.
+2016-08-23 20:05:38,333 86690 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Finished recovering the ReferenceStore
+2016-08-23 20:05:38,343 86700 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-08-23 20:05:38,345 86702 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-08-23 20:05:38,667 87024 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-08-23 20:05:38,669 87026 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-08-23 20:05:38,682 87039 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-08-23 20:05:38,686 87043 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:AAR_BLR_0017-57744-1471962938389-0:0) started
+2016-08-23 20:05:40,666 89023 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-08-23 20:05:41,889 90246 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-08-23 20:05:41,892 90249 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-08-23 20:05:41,895 90252 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-08-23 20:05:45,413 93770 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-08-23 20:05:46,918 95275 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-08-23 20:05:48,076 96433 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-08-23 20:05:49,782 98139 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-08-23 20:05:49,836 98193 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-08-23 20:05:49,883 98240 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-08-23 20:05:49,900 98257 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-08-23 20:05:49,923 98280 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-08-23 20:05:50,448 98805 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-08-23 20:05:50,615 98972 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-08-23 20:05:50,638 98995 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-08-23 20:05:50,640 98997 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-08-23 20:05:50,772 99129 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-08-23 20:05:50,775 99132 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-08-23 20:05:50,777 99134 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-08-23 20:05:50,977 99334 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-08-23 20:05:58,768 107125 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-08-23 20:06:01,878 110235 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-08-23 20:06:01,903 110260 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-08-23 20:06:02,008 110365 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-08-23 20:06:02,014 110371 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-08-23 20:06:02,024 110381 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-08-23 20:06:02,030 110387 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-23 20:06:02,046 110403 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-08-23 20:06:02,078 110435 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-08-23 20:06:02,083 110440 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-23 20:06:04,769 113126 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-08-23 20:06:08,460 116817 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-08-23 20:06:08,540 116897 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-08-23 20:06:35,041 143398 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + currency
+2016-08-23 20:06:38,416 146773 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-1:) Looking for table + country
+2016-08-23 20:07:22,794 191151 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-2:) Request is to process authentication
+2016-08-23 20:07:24,352 192709 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-2:) Looking for table + role
+2016-08-23 20:07:25,138 193495 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-2:) Looking for table + base_user
+2016-08-23 20:07:25,927 194284 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-2:) Setting locale for Spring contexts: en_US
+2016-08-23 20:07:25,928 194285 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-2:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@a479cd6: Principal: CompanyUserDetails{id=10810, username='Aarav1;10', mainRoleId=2, companyId=10, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffc7f0c: RemoteIpAddress: 127.0.0.1; SessionId: A164A6E70FE19D44FADCA921CD6F853F; Granted Authorities: ROLE_SUPER_USER
+2016-08-23 20:07:29,871 198228 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:07:29,935 198292 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-08-23 20:07:31,770 200127 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:07:31,770 200127 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:07:31,771 200128 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-08-23 20:07:33,070 201427 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:07:33,070 201427 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:07:33,071 201428 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-08-23 20:07:33,177 201534 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:07:33,177 201534 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:07:33,177 201534 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-08-23 20:07:49,606 217963 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-5:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:08:07,504 235861 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-5:) Looking for table + user_status
+2016-08-23 20:08:56,739 285096 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:08:56,741 285098 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:08:56,741 285098 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) preferenceValue : |0|
+2016-08-23 20:08:57,822 286179 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:08:57,825 286182 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:08:57,825 286182 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) preferenceValue : |0|
+2016-08-23 20:08:57,969 286326 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:08:57,970 286327 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:08:57,971 286328 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-3:) preferenceValue : |0|
+2016-08-23 20:08:59,727 288084 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-3:) Looking for table + preference_type
+2016-08-23 20:09:03,175 291532 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-3:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:09:20,080 308437 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:20,081 308438 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:20,081 308438 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-08-23 20:09:20,205 308562 INFO  [grails.app.controllers.jbilling.PluginController] (http-nio-8080-exec-10:) Categories found= 22
+2016-08-23 20:09:21,677 310034 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:21,678 310035 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:21,678 310035 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-08-23 20:09:22,315 310672 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:22,316 310673 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:22,316 310673 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-08-23 20:09:23,145 311502 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:23,145 311502 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:23,145 311502 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-08-23 20:09:23,334 311691 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:23,334 311691 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:23,335 311692 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-08-23 20:09:24,286 312643 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:24,287 312644 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:24,287 312644 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-08-23 20:09:26,079 314436 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-10:) Looking for table + pluggable_task_type_category
+2016-08-23 20:09:26,269 314626 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:26,269 314626 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:26,269 314626 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-08-23 20:09:26,507 314864 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:09:26,508 314865 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:09:26,508 314865 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-08-23 20:09:26,609 314966 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-10:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:09:28,571 316928 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-6:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:10:55,200 403557 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:55,201 403558 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:55,201 403558 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) preferenceValue : |0|
+2016-08-23 20:10:55,914 404271 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:55,914 404271 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:55,915 404272 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-08-23 20:10:57,432 405789 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:57,432 405789 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:57,433 405790 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-08-23 20:10:57,448 405805 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:57,448 405805 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:57,448 405805 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) preferenceValue : |0|
+2016-08-23 20:10:59,219 407576 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:59,219 407576 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:59,219 407576 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-08-23 20:10:59,219 407576 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:59,219 407576 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:59,220 407577 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) preferenceValue : |0|
+2016-08-23 20:10:59,284 407641 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:59,285 407642 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:59,286 407643 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-08-23 20:10:59,292 407649 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Looking for preference 63, for entity 10 and table entity
+2016-08-23 20:10:59,293 407650 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Preferences Cache hit for preferenceCache entity:10
+2016-08-23 20:10:59,293 407650 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) preferenceValue : |0|
+2016-08-23 20:11:01,009 409366 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-8:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-08-23 20:11:01,027 409384 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-4:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html

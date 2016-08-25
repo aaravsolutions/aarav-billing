@@ -1,0 +1,15 @@
+Date: Tue Aug 23 15:36:06 IST 2016
+To: raghuprabha2@gmail.com
+From: admin@jbilling.com
+Subject: Initial Credentials
+Body: Hello Prabha Muthusamy,
+
+Welcome to jBilling!.
+
+Please follow this link to set your credentials:
+
+http://www.yourcompany.com/jbilling/resetPassword/changePassword?token=4HHumV0w8ZxaIW4rU849wISiv7h4cWZg
+
+Admin:	AARAV SOLUTIONS PVT LTD
+Attachement: null
+        ----------------------        
